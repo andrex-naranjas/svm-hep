@@ -237,7 +237,7 @@ class svc(linear,rbf,SVC):
 
 
 l=svc(kernel='linear_np_precompute')
-l.fit(x_tr,y_tr)
+l.fit(x_train,y_train)
       
 
 # # decision functions
